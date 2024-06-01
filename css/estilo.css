@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: crimson;
+    display: grid;
+    place-items: center;
+}
+
+#div1{
+    padding: 50px;
+    background-color: darkblue;
+    color: white;
+    width: min(50%, 600px);
+    font-size: 1.5em;
+}

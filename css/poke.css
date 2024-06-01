@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+    object-fit: cover;
+}
+
+article {
+    background: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 10px;
+    text-align: center;
+}
+
+form{
+    margin-bottom: 2em;
+}
+
+h4{
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
